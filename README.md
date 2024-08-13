@@ -22,5 +22,5 @@ The project is organized into several directories:
    ```
 
 Detailed folder Structure
-
+  see folder dir [here](Folder_dir.txt)
 
