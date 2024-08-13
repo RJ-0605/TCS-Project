@@ -23,43 +23,4 @@ The project is organized into several directories:
 
 Detailed folder Structure
 
-TCS-Project/
-│
-├── config/
-│   ├── database-config.yaml
-│   ├── db-schema.sql
-│   └── env/
-│       ├── production.env
-│       └── development.env
-│
-├── scripts/
-│   ├── init-db.sh
-│   ├── backup-db.sh
-│   ├── migrate-db.sh
-│   └── seed-db.sh
-│
-├── docs/
-│   ├── architecture.md
-│   ├── setup-guide.md
-│   ├── maintenance-guide.md
-│   └── change-log.md
-│
-├── sql/
-│   ├── tables/
-│   │   ├── create_customers_table.sql
-│   │   └── create_orders_table.sql
-│   ├── views/
-│   │   └── create_customer_orders_view.sql
-│   └── procedures/
-│       ├── customer_procedure.sql
-│       └── order_procedure.sql
-│
-├── tests/
-│   ├── test_schema.sql
-│   ├── test_procedures.sql
-│   └── test_views.sql
-│
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
 
