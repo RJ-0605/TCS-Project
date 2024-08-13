@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: tcs_db
+      MYSQL_USER: tcs_user
+      MYSQL_PASSWORD: securepassword
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - ./config/db-schema.sql:/docker-entrypoint-initdb.d/db-schema.sql
+    ports:
+      - "3306:3306"
