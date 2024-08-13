@@ -1,6 +1,6 @@
 database:
   host: localhost
-  port: 1433
+  port: 3306
   name: tcs_db
   user: tcs_user
   password: securepassword
